@@ -14,11 +14,11 @@ class WebsiteFunctionalityTest:
     def __init__(self, browser_type):
 
         # defining paths to files that will be used for testing
-        self.screenshot_path = os.path.abspath(r"C:\Users\User\Desktop\nova skripta\screenshot.png")
-        self.cover_photo_path = os.path.abspath(r"C:\Users\User\Desktop\nova skripta\cat-ga2192b34a_12801234511.jpg")
-        self.new_cover_photo_path = os.path.abspath(r"C:\Users\User\Desktop\nova skripta\seashells-g10fcd89cc_12801234523456.jpg")
-        self.image1_path = os.path.abspath(r"C:\Users\User\Desktop\nova skripta\igu-dfhadgg63ec0bd99_1280.jpg")
-        self.image2_path = os.path.abspath(r"C:\Users\User\Desktop\nova skripta\marguerite-gc981fd054_1280.jpg")
+        self.screenshot_path = os.path.abspath(r"C:\Users\Mira\Desktop\New Folder\screenshot.png")
+        self.cover_photo_path = os.path.abspath(r"C:\Users\Mira\Desktop\New Folder\cat-ga2192b34a_12801234511.jpg")
+        self.new_cover_photo_path = os.path.abspath(r"C:\Users\Mira\Desktop\New Folder\seashells-g10fcd89cc_12801234523456.jpg")
+        self.image1_path = os.path.abspath(r"C:\Users\Mira\Desktop\New Folder\igu-dfhadgg63ec0bd99_1280.jpg")
+        self.image2_path = os.path.abspath(r"C:\Users\Mira\Desktop\New Folder\marguerite-gc981fd054_1280.jpg")
 
         self.browser_type = browser_type
         self.browser = self.get_browser()
@@ -387,6 +387,7 @@ class WebsiteFunctionalityTest:
 
           print("Profile button hovered.")
 
+          # testing mouse hover reaction
           self.create_screenshot()
           time.sleep(1)
 
@@ -405,6 +406,7 @@ class WebsiteFunctionalityTest:
 
           print("Create album option hovered.")
 
+          # testing mouse hover reaction
           self.create_screenshot()
           time.sleep(1)
 
@@ -423,6 +425,7 @@ class WebsiteFunctionalityTest:
 
           print("Logout option hovered.")
 
+          # testing mouse hover reaction
           self.create_screenshot()
           time.sleep(1)
 
