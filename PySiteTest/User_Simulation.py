@@ -368,7 +368,7 @@ class UserSimulation:
             print("Profile button hovered.")
 
             # testing mouse hover reaction
-            #self.create_screenshot()
+            self.create_screenshot()
             self.wait_for_seconds()
 
             profile_button.click()
@@ -387,7 +387,7 @@ class UserSimulation:
             print("Create album option hovered.")
 
             # testing mouse hover reaction
-            #self.create_screenshot()
+            self.create_screenshot()
             self.wait_for_seconds()
 
             create_album_option.click()
@@ -406,7 +406,7 @@ class UserSimulation:
             print("Logout option hovered.")
 
             # testing mouse hover reaction
-            #self.create_screenshot()
+            self.create_screenshot()
             self.wait_for_seconds()
 
             logout_option.click()
@@ -414,7 +414,7 @@ class UserSimulation:
             self.wait_for_seconds()
 
             # take a screenshot after the testing is finished
-            #self.create_screenshot()
+            self.create_screenshot()
 
         except Exception as e:
             # if an exception occurs, we handle the error here
