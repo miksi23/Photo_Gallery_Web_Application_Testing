@@ -1,1 +1,0 @@
-# test_photo_gallery
